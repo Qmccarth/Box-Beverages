@@ -1,0 +1,116 @@
+
+
+body{
+	background: lightblue;
+  font-family: Helvetica, Sans-Serif;
+  color: white;
+  font-size: 18pt;
+  background-color:#36373b;
+}
+img{
+  width:30%;
+  text-align: center;
+}
+button{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #5E81E1;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+}
+
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: #67D6AF;
+}
+
+button:active {
+  background-color: #67D6AF;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+h2{
+  text-align: center;
+  color: white;
+}
+p{
+  text-align: center;
+  font-size: 18px;
+}
+.row {
+	display: flex;
+}
+
+.col-50 {
+	 flex: 50%; 
+}
+.col-75 {
+	 flex: 60%;
+}
+.col-12 {
+  flex: 20%;
+}
+
+#connectWallet{
+  float: right;
+  padding: 15px;
+  margin: 30px;
+
+}
+#boxkey{
+  margin-right: auto;
+  width: 40%;
+}
+#mintBtn{
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  color: white;
+  padding: 30px 64px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+}
+.bodytext{
+  padding: 10px;
+  margin: 18px;
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+#logoimg{
+  width:50%;
+}
+
+#header{
+  height: 200px;
+}
+
+/* Clear floats after the columns */
+
+
+.clearfloat{
+	clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+h1{
+  font-size: 72px;
+  text-align:center;
+  line-height: 5px
+}
